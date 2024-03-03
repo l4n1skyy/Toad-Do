@@ -5,11 +5,8 @@
     text
         primary
         secondary
-        tertiary (slate-400)
-    background
-        primary
-        secondary
         tertiary
+    background
 • Margin
 • Padding
 • Width
