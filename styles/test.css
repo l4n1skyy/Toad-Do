@@ -1,0 +1,20 @@
+body {
+    border-style: solid;
+    border-color: purple;
+}
+
+header {
+    border-style: solid;
+    border-color: pink;
+}
+
+.input_bar {
+    border-style: solid;
+    border-color: green;
+}
+
+footer {
+    border-style: solid;
+    border-color: blue;
+}
+
