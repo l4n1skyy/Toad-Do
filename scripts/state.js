@@ -15,14 +15,11 @@ function switch_state(id) {
     if (img.src.match(todo)) {
         img.setAttribute("src", "./images/doing.png");
         doing_list.appendChild(li);
-        todo_list.removeChild(li);
     } else if (img.src.match(doing)) {
         img.setAttribute("src", "./images/done.png");
         done_list.appendChild(li);
-        doing_list.removeChild(li);
     } else if (img.src.match(done)) {
         img.setAttribute("src", "./images/todo.png");
         todo_list.appendChild(li);
-        done_list.removeChild(li);
     }
 }

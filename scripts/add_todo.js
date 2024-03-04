@@ -53,11 +53,6 @@ ib.addEventListener("keyup", (e) => {
     // ul
     var ul = document.getElementById("todo_list");
     ul.appendChild(li);
-
-    console.log(state_button);
-    console.log(title);
-    console.log(time);
-    console.log(delete_button);
   }
 });
 
