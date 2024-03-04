@@ -2,3 +2,4 @@
 <br>
 <br>
 <img src="./images/playthrough.gif">
+<img src="./images/mobile.jpg">
