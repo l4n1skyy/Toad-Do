@@ -5,3 +5,5 @@
 - task statistics
 - task priority
 - local storage (cache/cookies?)
+- timeline/history
+- export/import data
