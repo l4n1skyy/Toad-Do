@@ -2,3 +2,4 @@
 <br>
 <br>
 <img src="./images/playthrough.gif">
+actually made this to practice flexbox and grids 🤭
