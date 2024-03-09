@@ -3,3 +3,5 @@
 <br>
 <img src="./images/playthrough.gif">
 actually made this to practice flexbox and grids 🤭
+<br>
+if anyone wanna work on this together to improve it more lemme know! 🚀
