@@ -10,35 +10,31 @@
         <link rel="stylesheet" href="./styles/styles.css">
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
-    <body class="flex flex-col justify-evenly min-h-screen my-0 p-0 bg-cyan-50">
-        <div class="flex flex-row grow justify-evenly">
-            <div class="flex flex-col w-80">
-                <header class="flex items-center justify-center h-40 opacity-80">
-                    <img style="image-rendering: pixelated;" class="absolute h-64 w-64 top-[-70px]" src="./images/title.png" alt="">
-                </header>
-                <section class="w-80 flex flex-col grow justify-end">
-                    <img class="mt-10 mx-6" src="./images/frog.gif" width="216" height="171">
-                    <p class="text-sm mt-6 mb-4 text-center text-slate-400">
-                        If it's your job to eat a frog, it's best to do it first thing in the morning. And If it's your job to eat two frogs, it's best to eat the biggest one first.<br>— Mark Twain
-                    </p>
-                </section>
-            </div>
-            <div>
-                <section class="mt-14 w-80">
-                    <input id="input_bar" class="px-2 placeholder:text-slate-400 bg-white shadow-sm w-full border-slate-200 border-dashed border-2 rounded focus:outline-none focus:shadow-md caret-slate-300" placeholder="add a new to do" type="text">
-                </section>
-                <section class="todo_items mt-12 w-80">
-                    <header class="mb-1 text-sm text-cyan-300 text-opacity-90 border-b-2 border-dashed border-cyan-200">Doing</header>
-                    <ul id="doing_list" class="mx-2 text-left text-gray-600 text-xl">
-                    </ul>
-                    <header class="mb-1 text-sm text-cyan-300 text-opacity-90 border-b-2 border-dashed border-cyan-200">To-Do</header>
-                    <ul id="todo_list" class="mx-2 text-left text-gray-600">
-                    </ul>
-                    <header class="mb-1 text-sm text-cyan-300 text-opacity-90 border-b-2 border-dashed border-cyan-200">Done</header>
-                    <ul id="done_list" class="mx-2 text-left text-gray-600">
-                    </ul>
-                </section>
-            </div>
+    <body class="flex flex-col min-h-screen my-0 p-0 bg-cyan-50">
+        <div class="grid grid-cols-1 grid-rows-4 lg:grid-cols-[3fr_4fr] lg:grid-rows-[1.5fr_1fr_1fr_3fr] lg:grow lg:ml-28 lg:mr-4">
+            <header class="col-start-1 col-end-2 row-start-1 row-end-2 lg:col-start-1 lg:col-end-2 flex items-center justify-center opacity-80">
+                <img style="image-rendering: pixelated;" class="absolute h-64 w-64 top-[-70px]" src="./images/title.png">
+            </header>
+            <section class="col-start-1 col-end-2 row-start-4 row-end-5 lg:col-start-1 lg:col-end-2 flex flex-col items-center justify-center">
+                <img class="relative right-8" src="./images/frog.gif" width="216" height="171">
+                <p class="max-w-md mt-6 mb-4 text-sm text-center text-slate-400">
+                    If it's your job to eat a frog, it's best to do it first thing in the morning. And If it's your job to eat two frogs, it's best to eat the biggest one first.<br>— Mark Twain
+                </p>
+            </section>
+            <section class="w-[448px] mx-auto col-start-1 col-end-2 row-start-2 row-end-3 lg:col-start-2 lg:col-end-3 mt-8">
+                <input id="input_bar" class=" px-2 placeholder:text-slate-400 bg-white shadow-sm w-full border-slate-200 border-dashed border-2 rounded focus:outline-none focus:shadow-md caret-slate-300" placeholder="add a new to do" type="text">
+            </section>
+            <section id="todo_items" class="col-start-1 col-end-2 row-start-3 row-end-4 lg:col-start-2 lg:col-end-3">
+                <header class="mx-auto min-w-md max-w-md mb-1 text-sm text-cyan-300 text-opacity-90 border-b-2 border-dashed border-cyan-200">Doing</header>
+                <ul id="doing_list" class="mx-auto min-w-md max-w-md text-left text-gray-600 text-xl">
+                </ul>
+                <header class="mx-auto min-w-md max-w-md mb-1 text-sm text-cyan-300 text-opacity-90 border-b-2 border-dashed border-cyan-200">To-Do</header>
+                <ul id="todo_list" class="mx-auto min-w-md max-w-md text-left text-gray-600">
+                </ul>
+                <header class="mx-auto min-w-md max-w-md mb-1 text-sm text-cyan-300 text-opacity-90 border-b-2 border-dashed border-cyan-200">Done</header>
+                <ul id="done_list" class="mx-auto min-w-md max-w-md text-left text-gray-600">
+                </ul>
+            </section>
         </div>
         <footer class="flex items-center justify-center w-full h-10 shadow-sm text-slate-400 bg-cyan-100 opacity-80">
             <p>by l4n1skyy</p>
