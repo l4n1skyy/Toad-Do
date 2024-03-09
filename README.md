@@ -2,4 +2,3 @@
 <br>
 <br>
 <img src="./images/playthrough.gif">
-<img width="25%" height="25%" src="./images/mobile.jpg">
